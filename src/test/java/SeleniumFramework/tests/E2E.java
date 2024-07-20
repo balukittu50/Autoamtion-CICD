@@ -18,6 +18,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class E2E {
 	public static void main(String[] args) {
+
+		//new comments updated for git jenkin
 		String productname = "ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
