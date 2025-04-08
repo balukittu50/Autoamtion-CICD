@@ -22,7 +22,7 @@ public class SubmitOrderTest extends BaseTest {
 
 	@Test(dataProvider = "getData", groups = { "Purchase" })
 	public void submitorder(HashMap<String, String> input) throws IOException {
-
+//updated for cicd
 		ProductCatalog productcat = landingpage.LoginApplication(input.get("email"), input.get("password"));
 		List<WebElement> products = productcat.getProductlist();
 		productcat.addProductToCart(input.get("productname"));
